@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Akhir Satya — Product Designer</title>
+<meta name="description" content="Portfolio of Akhir Satya, a product designer focused on mobile apps, websites, and design systems.">
+<!-- Delete the next line when you are ready for Google to find your site. Also see README. -->
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#top"><img src="assets/logo.svg" alt="" width="16" height="19"><span>Akhir Satya</span></a>
+    <nav class="navlinks" aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button type="button" class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="mobile-menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#111111" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><line class="bl1" x1="4" y1="8" x2="20" y2="8"></line><line class="bl2" x1="4" y1="16" x2="20" y2="16"></line></svg>
+    </button>
+  </div>
+  <nav class="mmenu" id="mobile-menu" aria-label="Menu" hidden>
+    <a href="#work">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="wrap hero">
+    <div class="hello rv" style="--d:0s">
+      <img src="assets/portrait.webp" alt="Portrait of Akhir Satya" width="56" height="56">
+      <div class="hello-text">
+        <span class="hello-name">Hi, I’m Akhir</span>
+        <span class="hello-role">Product Designer</span>
+      </div>
+    </div>
+    <h1>
+      <span class="w rv" style="--d:0.15s">Designing</span><span class="w rv" style="--d:0.27s">digital</span><span class="w rv" style="--d:0.39s">products</span><span class="w rv" style="--d:0.51s">that</span><span class="w rv" style="--d:0.63s">feel</span><span class="slot"><span class="cyc" style="--c:0.75s">thoughtful.</span><span class="cyc" aria-hidden="true" style="--c:3.75s">intuitive.</span><span class="cyc" aria-hidden="true" style="--c:6.75s">effortless.</span><span class="cyc" aria-hidden="true" style="--c:9.75s">human.</span></span>
+    </h1>
+    <p class="hero-intro rv" style="--d:1.1s">I care about the details that make products easy to use, from the first user flow to the final pixel. Over the past 3+ years I’ve shaped mobile apps, websites, and design systems with product and engineering teams.</p>
+  </section>
+
+  <!-- SELECTED WORK (cards are generated from content.js) -->
+  <section class="wrap work" id="work">
+    <div class="section-label"><h2>Selected work</h2><span id="work-count"></span></div>
+    <div class="grid" id="project-grid"></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="wrap about" id="about">
+    <div class="section-label"><h2>About</h2></div>
+    <div class="about-grid">
+      <p class="about-statement">I build user-centered experiences that balance usability, business goals, and visual quality, backed by a strong visual design background.</p>
+      <div class="about-details">
+        <div>
+          <h3>Product &amp; UX</h3>
+          <p>Product design, UI/UX, user flows &amp; information architecture, wireframing, high-fidelity UI, interactive prototyping, design systems, responsive design, usability.</p>
+        </div>
+        <div>
+          <h3>Visual design</h3>
+          <p>Visual design, graphic design, digital imaging, motion design.</p>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <p>Figma, Adobe Photoshop, Illustrator, After Effects, InDesign.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="wrap contact" id="contact">
+    <div class="section-label"><h2>Contact</h2></div>
+    <p class="contact-lead">Have a product in mind? Let’s talk.</p>
+    <div class="contact-links">
+      <a href="#" data-link="email" data-text="email"></a>
+      <a href="#" data-link="whatsapp">WhatsApp</a>
+      <a href="#" data-link="linkedin">LinkedIn</a>
+    </div>
+    <div class="footer">
+      <span>© <span id="year">2026</span> Akhir Satya</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </section>
+</main>
+
+<!-- The floating "Get in touch" button is added by main.js on every page -->
+
+<script src="content.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
